@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>final</title>
+    <title>see what my fridge has</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="backDoor">
+      <div class="door"></div>
+    </div>
+
+
+    <script>
+    var element = document.querySelector(".door");
+    element.addEventListener("click", toggleDoor);
+
+    function toggleDoor() {
+    element.classList.toggle("doorOpen");
+    }
+    </script>
 
   </body>
 </html>

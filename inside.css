@@ -1,0 +1,20 @@
+body {
+  background: lightgray;
+  box-sizing: border-box
+  margin: 0;
+}
+
+.big-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  height: 40vh;
+  /* width: calc(100% / 3); */
+  display: flex;
+  position: sticky;
+  margin: 0;
+}
